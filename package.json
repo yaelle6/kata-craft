@@ -1,0 +1,21 @@
+{
+  "name": "kata-craft",
+  "version": "1.0.0",
+  "description": "This is the repository used for the craft certification.",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "jest --collectCoverage",
+    "test": "jest",
+    "watch": "jest --watch",
+    "watch-all" : "jest --watchAll"
+  },
+  "author": "Yaëlle",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.js", "!**/node_modules/**",  "!**/coverage/**"]
+  }
+}
